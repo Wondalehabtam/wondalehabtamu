@@ -66,14 +66,12 @@ padding: 11px;
 }
 .q1{
     font-weight: bold;
-    font-size: 13px;
-    padding-top: 5%;
+    font-size: 18px;
     justify-content: center;
     margin-left: 11%;
     margin-right: 11%;
 }
 .ending{
-margin-top: 1%;
  background-image: url(https://th.bing.com/th/id/OIP.z3VdImedH8xphH6-eU_c6AHaCe?w=294&h=116&c=7&r=0&o=5&dpr=1.5&pid=1.7);
  opacity: 0.7;
  color: rgb(0, 0, 0);
