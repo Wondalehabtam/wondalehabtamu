@@ -226,7 +226,7 @@ margin-top: -100% !important;
 
  }
  /* //for lanscaped tablets */
- @media only screen and (min-width:2000px) {
+ @media only screen and (min-width:1330px) {
     *{
         margin: 0;
         padding: 0;
@@ -267,7 +267,7 @@ margin-top: -100% !important;
     .mainco h1{
         z-index: 1;
         padding-top:10%;
-        font-size: 60px;
+        font-size: 50px;
         margin-left: 10%;
     }
     .mainbar h1{

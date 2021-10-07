@@ -258,7 +258,7 @@ padding: 11px;
 
 }
 /* //for landscape tablets */
-@media only screen and (min-width:2000px) {
+@media only screen and (min-width:1330px) {
     *{
         margin: 0;
         padding: 0;

@@ -43,7 +43,7 @@ body{
     width: 100%;
 }
 /* //for lanscaped tablets */
-@media only screen and (min-width:2000px) {
+@media only screen and (min-width:1330px) {
     *{
         margin: 0;
         padding: 0;
