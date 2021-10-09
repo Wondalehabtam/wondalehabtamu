@@ -150,7 +150,7 @@ margin-top: -100% !important;
     
 }
  /* //for desktop */
- @media only screen and (min-width:800px) and ( max-width:1280px) {
+ @media only screen and (min-width:800px) and ( max-width:1329px) {
     *{
         margin: 0;
         padding: 0;
