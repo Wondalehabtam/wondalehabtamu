@@ -1,3 +1,16 @@
+
+@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+.logo {
+	animation-name: spin;
+	animation-duration: 4000ms;
+	animation-iteration-count: infinite;
+}
+/* //for mobiles */
+@media only screen and (min-width:360px) and ( max-width:900px) {
 .loader {
         width: 48px;
         height: 48px;
@@ -32,18 +45,6 @@
           75%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 100%)}
           100% {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,0 100%,0 0)}
       }
-@keyframes spin {
-	from { transform: rotate(0deg); }
-	to { transform: rotate(360deg); }
-}
-
-.logo {
-	animation-name: spin;
-	animation-duration: 4000ms;
-	animation-iteration-count: infinite;
-}
-/* //for mobiles */
-@media only screen and (min-width:360px) and ( max-width:900px) {
     *{
         padding: 0;
         margin: 0;
